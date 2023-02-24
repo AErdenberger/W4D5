@@ -69,7 +69,7 @@ end
 # p fourth_anagram?("gizmo", "sally")    #=> false
 # p fourth_anagram?("elvis", "lives")    #=> true
 
-def fifth_anagram?(word_1, word_2)
+def fifth_anagram?(word_1, word_2)#2n
     hash = Hash.new(0)
 
     word_1.each_char do |char|
